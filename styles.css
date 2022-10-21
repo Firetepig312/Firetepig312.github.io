@@ -1,0 +1,152 @@
+html {
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+
+
+#Background {
+    background: rgb(58,58,58);
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: black;
+    padding: 5px;
+    text-align: center;
+    margin:auto;
+    margin-bottom: 20px;
+}
+
+section {
+    background: white;
+    color: gray;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    margin: auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+li {
+    margin: 20px;
+    
+}
+
+a:visited {
+     color: white;
+     text-decoration: none;
+}
+
+#homeHeader ul li{
+    margin:20px;
+    text-align: left;
+}
+
+#parkHeader ul li{
+    margin:20px;
+    display:inline-block;
+    text-align: center;
+}
+
+
+
+#landBlock {
+    background: rgb(25, 134, 153);
+    padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    }
+    .member {
+        display: inline-block;
+        width: 200px;
+        height: 240px;
+        vertical-align: top;
+
+    }
+    .name {
+        display: inline;
+    }
+    .member img {
+        width: 100%;
+        display: block;
+    }
+
+ #musicBlock {
+    background: rgb(25, 134, 153);
+    padding-top: 40px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    }
+    .member {
+        display: inline-block;
+        width: 200px;
+         height: 240px;
+         vertical-align: top;
+    
+    }
+    .name {
+        display: inline;
+    }
+    .member img {
+        width: 100%;
+        display: block;
+    }
+
+
+
+.fantasyBlock {
+    background: rgb(204, 47, 167);
+    margin-left: 500px;
+    margin-right: 500px;
+    padding-left: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    /*justify-content: center; */
+}
+
+img {
+    max-width: 200px;
+
+}
+
+.image {
+    flex-basis: 10%;
+
+}
+
+.text {
+    font-size: 10px;
+}
+
+.musicBlock {
+    text-align: center; 
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 1000px;
+}
+
+.musicBody {
+    background: rgb(53, 86, 188);
+    margin-top: 20px;
+
+    text-align: center;
+}
+
+.line{
+    background: rgb(1,1,1);
+    width: 830px;
+    border-bottom: 3px solid rgb(205, 24, 24);
+    margin-left: 600px;
+    margin-right: 600px;
+    position: relative;
+    }
