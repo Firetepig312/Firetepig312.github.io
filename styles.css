@@ -332,3 +332,64 @@ margin-bottom-24px {
 .body-2 {
     background-color: #eb2286
 }
+
+.musicblock {
+    position: relative;
+    padding: 40px 30px;
+    border-bottom: 1px solid #e4ebf3;
+    background-color: #f5f7fa;
+}
+
+.container-3 {
+    width: 100%;
+    max-width: 940px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero-wrapper-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-split-2 {
+    display: flex;
+    max-width: 46%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.shadow-two-2 {
+    box-shadow: 0 4px 24px 0 rgba(150,163,181,0.08);
+}
+
+.margin-bottom-24px-2 {
+    margin-bottom: 24px;
+}
+
+.button-primary-2 {
+    padding: 12px 25px;
+    background-color: #1a1b1f;
+    transition: all 200ms ease;
+    color: #fff;
+    font-sixe: 12px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.button-primary-2:hover {
+    background-color: #32343a;
+    color: #fff;
+}
+
+.button-primary-2:active {
+    background-color: #43464d;
+}
+
+.html-embed {
+    order: 0;
+}
+
