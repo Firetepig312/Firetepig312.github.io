@@ -171,3 +171,17 @@ img {
     outline-width: 3px;
 }
 
+.parkheader {
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.parkheaderbutton {
+    background-color: rgba(1,1,1,0);
+}
+
+.magickingdombody {
+    background-color: #2067e4;
+}
