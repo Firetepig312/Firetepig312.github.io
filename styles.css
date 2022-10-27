@@ -150,3 +150,24 @@ img {
     margin-right: 600px;
     position: relative;
     }
+
+.homeheader {
+    height: 40px;
+    background-color:rgba(184,16,16,0);
+    line-height: 20px;
+}
+
+.body {
+    background-color: #754a4a;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgba(131,154,175,0);
+    box-shadow:1px 1px 3px 0 #000;
+    outline-color: #fff;
+    outline-offset: 0px;
+    outline-style: none;
+    outline-width: 3px;
+}
+
